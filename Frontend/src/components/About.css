@@ -1,0 +1,115 @@
+/* BACKGROUND */
+.body2 {
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    padding: 40px 20px;
+}
+
+/* MAIN CONTAINER SPACING */
+.divabout {
+    max-width: 1000px;
+    margin: 40px auto; /* center instead of margin-left */
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+/* HOVER EFFECT */
+.divabout:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+}
+
+/* HEADINGS */
+.Headabout {
+    color: rgb(5, 133, 95);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* PARAGRAPH */
+.pabout {
+    font-size: 18px;
+    font-style: oblique;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* LIST */
+.ulabout {
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.ulabout li {
+    margin-bottom: 8px;
+}
+
+/* ITALIC TEXT */
+.italicabout {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* STRONG TEXT */
+.strongabout {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* MAIN TITLE */
+.headaboutus {
+    display: block;
+    text-align: center;
+    font-size: 42px;
+    color: rgb(3, 13, 114);
+    border-bottom: 5px dotted rgb(3, 13, 114);
+    width: fit-content;
+    margin: 0 auto 40px auto; /* perfectly centered */
+}
+
+/* BUTTON */
+.buttonbook {
+    display: block;
+    margin: 40px auto; /* center automatically */
+    width: 250px;
+    height: 50px;
+    background: linear-gradient(135deg, #00c9a7, #92fe9d);
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* BUTTON HOVER */
+.buttonbook:hover {
+    background: linear-gradient(135deg, #d490c6, #ffb6c1);
+    transform: scale(1.05);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .Headabout {
+        font-size: 24px;
+    }
+
+    .pabout {
+        font-size: 16px;
+    }
+
+    .headaboutus {
+        font-size: 30px;
+    }
+
+    .buttonbook {
+        width: 200px;
+    }
+}

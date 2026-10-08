@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+nav{
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(90deg, #141e30, #243b55);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+/* LOGO / HEADING */
+.head{
+    color: rgb(40, 239, 173);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* NAV LINKS */
+.links{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.links li{
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.links li:hover{
+    color: rgb(40, 239, 173);
+}
+
+/* FOOTER */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    color: whitesmoke;
+}

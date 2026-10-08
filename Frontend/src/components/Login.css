@@ -1,0 +1,124 @@
+/* PAGE BACKGROUND */
+.login-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url(https://www.therichest.com/wp-content/uploads/2014/10/Luxury-e1414600211973.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 20px;
+}
+
+/* CARD */
+.login-card {
+    width: 100%;
+    max-width: 380px;
+}
+
+/* FORM */
+.login-form {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* FORM BOX */
+.login-box {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* TITLE */
+.login-title {
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* LABEL */
+.login-label {
+    color: #161616;
+    font-size: 14px;
+}
+
+/* INPUT */
+.login-input {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: rgba(247, 245, 244, 0.547);
+    color: white;
+}
+
+/* INPUT FOCUS */
+.login-input:focus {
+    background: rgba(65,21,3,0.3);
+    box-shadow: 0 0 6px rgba(255,255,255,0.4);
+}
+
+/* LOGIN BUTTON */
+.login-btn {
+    margin-top: 10px;
+    padding: 12px;
+
+    border: none;
+    border-radius: 25px;
+
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: white;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+    transform: scale(1.05);
+}
+
+/* RESET BUTTON */
+.reset-btn {
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+
+    background: #ddd;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.reset-btn:hover {
+    background: #bbb;
+}
+
+/* TEXT */
+.login-text {
+    text-align: center;
+    color: #eee;
+    font-size: 14px;
+}
+
+/* REGISTER LINK */
+.register-link {
+    text-align: center;
+    color: #0ca8fc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-link:hover {
+    text-decoration: underline;
+}
+
+/* RESPONSIVE */
+@media (max-width: 480px) {
+    .login-form {
+        padding: 20px;
+    }
+}

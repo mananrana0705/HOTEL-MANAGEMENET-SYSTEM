@@ -1,0 +1,104 @@
+/* BACKGROUND (NO IMAGE) */
+.body4 {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: url(https://wallpaperaccess.com/full/3434639.jpg);
+}
+
+/* CARD */
+.Loginback {
+    width: 100%;
+    max-width: 420px;
+}
+
+/* FORM CARD */
+.Form1 {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(25px);
+
+    padding: 30px;
+    border-radius: 15px;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* FORM STRUCTURE */
+.login {
+    display: flex;
+    flex-direction: column;
+    gap: 12px; /* IMPORTANT for alignment */
+}
+
+/* HEADING */
+.login h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* LABEL */
+.login label {
+    color: #f1f1f1;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* INPUTS */
+.login input,
+.login select {
+    width: 100%;
+    padding: 10px;
+
+    border-radius: 8px;
+    border: none;
+    outline: none;
+
+    background: rgba(255, 255, 255, 0.392);
+    color: rgb(16, 16, 16);
+
+    font-size: 14px;
+}
+
+/* PLACEHOLDER */
+.login input::placeholder {
+    color: #ddd;
+}
+
+/* FOCUS */
+.login input:focus,
+.login select:focus {
+    background: rgba(255,255,255,0.3);
+    box-shadow: 0 0 6px rgba(255,255,255,0.4);
+}
+
+/* BUTTON */
+.Sub1 {
+    margin-top: 15px;
+    padding: 12px;
+
+    border: none;
+    border-radius: 25px;
+
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: white;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* HOVER */
+.Sub1:hover {
+    transform: scale(1.04);
+    box-shadow: 0 8px 20px rgba(255,126,95,0.5);
+}
+
+/* RESPONSIVE */
+@media (max-width: 480px) {
+    .Form1 {
+        padding: 20px;
+    }
+}
